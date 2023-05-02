@@ -1,0 +1,2096 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ExcelFormattedGISTEMPDataCSV (ExcelFormattedGISTEMPDataCSV)' inline='true' name='federated.03p0ro40p8a56y1f0wtjm0y2gvnm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ExcelFormattedGISTEMPDataCSV' name='excel-direct.1c615j714900a717ntday1t8dkxw'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Calvin/Documents/data-projects/ExcelFormattedGISTEMPDataCSV.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1c615j714900a717ntday1t8dkxw' name='ExcelFormattedGISTEMPDataCSV' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+          <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Jan' ordinal='1' />
+            <column datatype='integer' name='Feb' ordinal='2' />
+            <column datatype='integer' name='Mar' ordinal='3' />
+            <column datatype='integer' name='Apr' ordinal='4' />
+            <column datatype='integer' name='May' ordinal='5' />
+            <column datatype='integer' name='Jun' ordinal='6' />
+            <column datatype='integer' name='Jul' ordinal='7' />
+            <column datatype='integer' name='Aug' ordinal='8' />
+            <column datatype='integer' name='Sep' ordinal='9' />
+            <column datatype='integer' name='Oct' ordinal='10' />
+            <column datatype='integer' name='Nov' ordinal='11' />
+            <column datatype='integer' name='Dec' ordinal='12' />
+            <column datatype='integer' name='J-D' ordinal='13' />
+            <column datatype='integer' name='D-N' ordinal='14' />
+            <column datatype='integer' name='DJF' ordinal='15' />
+            <column datatype='integer' name='MAM' ordinal='16' />
+            <column datatype='integer' name='JJA' ordinal='17' />
+            <column datatype='integer' name='SON' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1c615j714900a717ntday1t8dkxw' name='ExcelFormattedGISTEMPDataCSV' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+          <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Jan' ordinal='1' />
+            <column datatype='integer' name='Feb' ordinal='2' />
+            <column datatype='integer' name='Mar' ordinal='3' />
+            <column datatype='integer' name='Apr' ordinal='4' />
+            <column datatype='integer' name='May' ordinal='5' />
+            <column datatype='integer' name='Jun' ordinal='6' />
+            <column datatype='integer' name='Jul' ordinal='7' />
+            <column datatype='integer' name='Aug' ordinal='8' />
+            <column datatype='integer' name='Sep' ordinal='9' />
+            <column datatype='integer' name='Oct' ordinal='10' />
+            <column datatype='integer' name='Nov' ordinal='11' />
+            <column datatype='integer' name='Dec' ordinal='12' />
+            <column datatype='integer' name='J-D' ordinal='13' />
+            <column datatype='integer' name='D-N' ordinal='14' />
+            <column datatype='integer' name='DJF' ordinal='15' />
+            <column datatype='integer' name='MAM' ordinal='16' />
+            <column datatype='integer' name='JJA' ordinal='17' />
+            <column datatype='integer' name='SON' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S137:no:A1:S137:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jan]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jan</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feb</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Feb]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Feb</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mar]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Mar</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Apr]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Apr</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>May</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[May]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>May</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jun]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jun</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jul</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jul]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jul</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aug</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aug]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Aug</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sep</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sep]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Sep</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oct</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oct]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Oct</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nov</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nov]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Nov</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dec</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dec]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Dec</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>J-D</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[J-D]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>J-D</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D-N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[D-N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>D-N</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DJF]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>DJF</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAM]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>MAM</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JJA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JJA]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>JJA</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SON</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SON]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>SON</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ExcelFormattedGISTEMPDataCSV' datatype='table' name='[__tableau_internal_object_id__].[ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ExcelFormattedGISTEMPDataCSV' id='ExcelFormattedGISTEMPDataCSV_F3A679CC770942FAB670851B62339A9F'>
+            <properties context=''>
+              <relation connection='excel-direct.1c615j714900a717ntday1t8dkxw' name='ExcelFormattedGISTEMPDataCSV' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+                <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Jan' ordinal='1' />
+                  <column datatype='integer' name='Feb' ordinal='2' />
+                  <column datatype='integer' name='Mar' ordinal='3' />
+                  <column datatype='integer' name='Apr' ordinal='4' />
+                  <column datatype='integer' name='May' ordinal='5' />
+                  <column datatype='integer' name='Jun' ordinal='6' />
+                  <column datatype='integer' name='Jul' ordinal='7' />
+                  <column datatype='integer' name='Aug' ordinal='8' />
+                  <column datatype='integer' name='Sep' ordinal='9' />
+                  <column datatype='integer' name='Oct' ordinal='10' />
+                  <column datatype='integer' name='Nov' ordinal='11' />
+                  <column datatype='integer' name='Dec' ordinal='12' />
+                  <column datatype='integer' name='J-D' ordinal='13' />
+                  <column datatype='integer' name='D-N' ordinal='14' />
+                  <column datatype='integer' name='DJF' ordinal='15' />
+                  <column datatype='integer' name='MAM' ordinal='16' />
+                  <column datatype='integer' name='JJA' ordinal='17' />
+                  <column datatype='integer' name='SON' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='ExcelFormattedGISTEMPData2CSV (ExcelFormattedGISTEMPData2CSV)' inline='true' name='federated.1kt5voj1cpum8u11ve4hq0eizi0u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ExcelFormattedGISTEMPData2CSV' name='excel-direct.00rrq3k0514t521c6zdwi1v7dkje'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Calvin/Documents/data-projects/ExcelFormattedGISTEMPData2CSV.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='ExcelFormattedGISTEMPDataCSV' name='excel-direct.0d5j5xx0r38iwv11u6n5909dbkey'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Calvin/Documents/data-projects/ExcelFormattedGISTEMPDataCSV.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.00rrq3k0514t521c6zdwi1v7dkje' name='ExcelFormattedGISTEMPData2CSV' table='[ExcelFormattedGISTEMPData2CSV$]' type='table'>
+          <columns gridOrigin='A1:O136:no:A1:O136:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Glob' ordinal='1' />
+            <column datatype='integer' name='NHem' ordinal='2' />
+            <column datatype='integer' name='SHem' ordinal='3' />
+            <column datatype='integer' name='24N-90N' ordinal='4' />
+            <column datatype='integer' name='24S-24N' ordinal='5' />
+            <column datatype='integer' name='90S-24S' ordinal='6' />
+            <column datatype='integer' name='64N-90N' ordinal='7' />
+            <column datatype='integer' name='44N-64N' ordinal='8' />
+            <column datatype='integer' name='24N-44N' ordinal='9' />
+            <column datatype='integer' name='EQU-24N' ordinal='10' />
+            <column datatype='integer' name='24S-EQU' ordinal='11' />
+            <column datatype='integer' name='44S-24S' ordinal='12' />
+            <column datatype='integer' name='64S-44S' ordinal='13' />
+            <column datatype='integer' name='90S-64S' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.00rrq3k0514t521c6zdwi1v7dkje' name='ExcelFormattedGISTEMPData2CSV' table='[ExcelFormattedGISTEMPData2CSV$]' type='table'>
+            <columns gridOrigin='A1:O136:no:A1:O136:0' header='yes' outcome='6'>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='integer' name='Glob' ordinal='1' />
+              <column datatype='integer' name='NHem' ordinal='2' />
+              <column datatype='integer' name='SHem' ordinal='3' />
+              <column datatype='integer' name='24N-90N' ordinal='4' />
+              <column datatype='integer' name='24S-24N' ordinal='5' />
+              <column datatype='integer' name='90S-24S' ordinal='6' />
+              <column datatype='integer' name='64N-90N' ordinal='7' />
+              <column datatype='integer' name='44N-64N' ordinal='8' />
+              <column datatype='integer' name='24N-44N' ordinal='9' />
+              <column datatype='integer' name='EQU-24N' ordinal='10' />
+              <column datatype='integer' name='24S-EQU' ordinal='11' />
+              <column datatype='integer' name='44S-24S' ordinal='12' />
+              <column datatype='integer' name='64S-44S' ordinal='13' />
+              <column datatype='integer' name='90S-64S' ordinal='14' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0d5j5xx0r38iwv11u6n5909dbkey' name='ExcelFormattedGISTEMPDataCSV' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+            <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='integer' name='Jan' ordinal='1' />
+              <column datatype='integer' name='Feb' ordinal='2' />
+              <column datatype='integer' name='Mar' ordinal='3' />
+              <column datatype='integer' name='Apr' ordinal='4' />
+              <column datatype='integer' name='May' ordinal='5' />
+              <column datatype='integer' name='Jun' ordinal='6' />
+              <column datatype='integer' name='Jul' ordinal='7' />
+              <column datatype='integer' name='Aug' ordinal='8' />
+              <column datatype='integer' name='Sep' ordinal='9' />
+              <column datatype='integer' name='Oct' ordinal='10' />
+              <column datatype='integer' name='Nov' ordinal='11' />
+              <column datatype='integer' name='Dec' ordinal='12' />
+              <column datatype='integer' name='J-D' ordinal='13' />
+              <column datatype='integer' name='D-N' ordinal='14' />
+              <column datatype='integer' name='DJF' ordinal='15' />
+              <column datatype='integer' name='MAM' ordinal='16' />
+              <column datatype='integer' name='JJA' ordinal='17' />
+              <column datatype='integer' name='SON' ordinal='18' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0d5j5xx0r38iwv11u6n5909dbkey' name='ExcelFormattedGISTEMPDataCSV1' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+            <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='integer' name='Jan' ordinal='1' />
+              <column datatype='integer' name='Feb' ordinal='2' />
+              <column datatype='integer' name='Mar' ordinal='3' />
+              <column datatype='integer' name='Apr' ordinal='4' />
+              <column datatype='integer' name='May' ordinal='5' />
+              <column datatype='integer' name='Jun' ordinal='6' />
+              <column datatype='integer' name='Jul' ordinal='7' />
+              <column datatype='integer' name='Aug' ordinal='8' />
+              <column datatype='integer' name='Sep' ordinal='9' />
+              <column datatype='integer' name='Oct' ordinal='10' />
+              <column datatype='integer' name='Nov' ordinal='11' />
+              <column datatype='integer' name='Dec' ordinal='12' />
+              <column datatype='integer' name='J-D' ordinal='13' />
+              <column datatype='integer' name='D-N' ordinal='14' />
+              <column datatype='integer' name='DJF' ordinal='15' />
+              <column datatype='integer' name='MAM' ordinal='16' />
+              <column datatype='integer' name='JJA' ordinal='17' />
+              <column datatype='integer' name='SON' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[24N-44N]' value='[ExcelFormattedGISTEMPData2CSV].[24N-44N]' />
+          <map key='[24N-90N]' value='[ExcelFormattedGISTEMPData2CSV].[24N-90N]' />
+          <map key='[24S-24N]' value='[ExcelFormattedGISTEMPData2CSV].[24S-24N]' />
+          <map key='[24S-EQU]' value='[ExcelFormattedGISTEMPData2CSV].[24S-EQU]' />
+          <map key='[44N-64N]' value='[ExcelFormattedGISTEMPData2CSV].[44N-64N]' />
+          <map key='[44S-24S]' value='[ExcelFormattedGISTEMPData2CSV].[44S-24S]' />
+          <map key='[64N-90N]' value='[ExcelFormattedGISTEMPData2CSV].[64N-90N]' />
+          <map key='[64S-44S]' value='[ExcelFormattedGISTEMPData2CSV].[64S-44S]' />
+          <map key='[90S-24S]' value='[ExcelFormattedGISTEMPData2CSV].[90S-24S]' />
+          <map key='[90S-64S]' value='[ExcelFormattedGISTEMPData2CSV].[90S-64S]' />
+          <map key='[Apr (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Apr]' />
+          <map key='[Apr]' value='[ExcelFormattedGISTEMPDataCSV].[Apr]' />
+          <map key='[Aug (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Aug]' />
+          <map key='[Aug]' value='[ExcelFormattedGISTEMPDataCSV].[Aug]' />
+          <map key='[D-N (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[D-N]' />
+          <map key='[D-N]' value='[ExcelFormattedGISTEMPDataCSV].[D-N]' />
+          <map key='[DJF (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[DJF]' />
+          <map key='[DJF]' value='[ExcelFormattedGISTEMPDataCSV].[DJF]' />
+          <map key='[Dec (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Dec]' />
+          <map key='[Dec]' value='[ExcelFormattedGISTEMPDataCSV].[Dec]' />
+          <map key='[EQU-24N]' value='[ExcelFormattedGISTEMPData2CSV].[EQU-24N]' />
+          <map key='[Feb (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Feb]' />
+          <map key='[Feb]' value='[ExcelFormattedGISTEMPDataCSV].[Feb]' />
+          <map key='[Glob]' value='[ExcelFormattedGISTEMPData2CSV].[Glob]' />
+          <map key='[J-D (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[J-D]' />
+          <map key='[J-D]' value='[ExcelFormattedGISTEMPDataCSV].[J-D]' />
+          <map key='[JJA (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[JJA]' />
+          <map key='[JJA]' value='[ExcelFormattedGISTEMPDataCSV].[JJA]' />
+          <map key='[Jan (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Jan]' />
+          <map key='[Jan]' value='[ExcelFormattedGISTEMPDataCSV].[Jan]' />
+          <map key='[Jul (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Jul]' />
+          <map key='[Jul]' value='[ExcelFormattedGISTEMPDataCSV].[Jul]' />
+          <map key='[Jun (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Jun]' />
+          <map key='[Jun]' value='[ExcelFormattedGISTEMPDataCSV].[Jun]' />
+          <map key='[MAM (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[MAM]' />
+          <map key='[MAM]' value='[ExcelFormattedGISTEMPDataCSV].[MAM]' />
+          <map key='[Mar (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Mar]' />
+          <map key='[Mar]' value='[ExcelFormattedGISTEMPDataCSV].[Mar]' />
+          <map key='[May (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[May]' />
+          <map key='[May]' value='[ExcelFormattedGISTEMPDataCSV].[May]' />
+          <map key='[NHem]' value='[ExcelFormattedGISTEMPData2CSV].[NHem]' />
+          <map key='[Nov (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Nov]' />
+          <map key='[Nov]' value='[ExcelFormattedGISTEMPDataCSV].[Nov]' />
+          <map key='[Oct (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Oct]' />
+          <map key='[Oct]' value='[ExcelFormattedGISTEMPDataCSV].[Oct]' />
+          <map key='[SHem]' value='[ExcelFormattedGISTEMPData2CSV].[SHem]' />
+          <map key='[SON (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[SON]' />
+          <map key='[SON]' value='[ExcelFormattedGISTEMPDataCSV].[SON]' />
+          <map key='[Sep (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Sep]' />
+          <map key='[Sep]' value='[ExcelFormattedGISTEMPDataCSV].[Sep]' />
+          <map key='[Year (ExcelFormattedGISTEMPDataCSV)]' value='[ExcelFormattedGISTEMPDataCSV].[Year]' />
+          <map key='[Year (ExcelFormattedGISTEMPDataCSV1)]' value='[ExcelFormattedGISTEMPDataCSV1].[Year]' />
+          <map key='[Year]' value='[ExcelFormattedGISTEMPData2CSV].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O136:no:A1:O136:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S137:no:A1:S137:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S137:no:A1:S137:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Glob</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Glob]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>Glob</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NHem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NHem]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>NHem</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SHem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SHem]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>SHem</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24N-90N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24N-90N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>24N-90N</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24S-24N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24S-24N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>24S-24N</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>90S-24S</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[90S-24S]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>90S-24S</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>64N-90N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[64N-90N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>64N-90N</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>44N-64N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[44N-64N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>44N-64N</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24N-44N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24N-44N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>24N-44N</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EQU-24N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EQU-24N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>EQU-24N</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24S-EQU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[24S-EQU]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>24S-EQU</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>44S-24S</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[44S-24S]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>44S-24S</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>64S-44S</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[64S-44S]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>64S-44S</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>90S-64S</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[90S-64S]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPData2CSV]</parent-name>
+            <remote-alias>90S-64S</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year (ExcelFormattedGISTEMPDataCSV)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jan]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jan</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feb</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Feb]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Feb</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mar]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Mar</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Apr]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Apr</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>May</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[May]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>May</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jun]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jun</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jul</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jul]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Jul</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aug</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aug]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Aug</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sep</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sep]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Sep</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oct</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oct]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Oct</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nov</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nov]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Nov</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dec</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dec]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>Dec</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>J-D</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[J-D]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>J-D</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D-N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[D-N]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>D-N</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DJF]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>DJF</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAM]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>MAM</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JJA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JJA]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>JJA</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SON</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SON]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV]</parent-name>
+            <remote-alias>SON</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jan (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Jan</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Feb</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Feb (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Feb</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mar (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Mar</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Apr (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Apr</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>May</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[May (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>May</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jun</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jun (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Jun</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jul</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jul (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Jul</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aug</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aug (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Aug</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sep</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sep (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Sep</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oct</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oct (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Oct</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nov</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nov (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Nov</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dec</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dec (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>Dec</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>J-D</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[J-D (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>J-D</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D-N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[D-N (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>D-N</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DJF (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>DJF</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAM (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>MAM</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JJA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JJA (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>JJA</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SON</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SON (ExcelFormattedGISTEMPDataCSV1)]</local-name>
+            <parent-name>[ExcelFormattedGISTEMPDataCSV1]</parent-name>
+            <remote-alias>SON</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[24S-24N]' role='measure' type='quantitative' />
+      <column caption='24S-Equ' datatype='integer' name='[24S-EQU]' role='measure' type='quantitative' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:NHem:qk]&quot;' value='Northern Hemisphere' />
+          <alias key='&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:SHem:qk]&quot;' value='Southern Hemisphere' />
+        </aliases>
+      </column>
+      <column datatype='integer' hidden='true' name='[Apr (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Apr]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Aug (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Aug]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[D-N (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[D-N]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[DJF (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[DJF]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Dec (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Dec]' role='measure' type='quantitative' />
+      <column caption='Equ-24N' datatype='integer' name='[EQU-24N]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Feb (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Feb]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Glob]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[J-D (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[J-D]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[JJA (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[JJA]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jan (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jan]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jul (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jul]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jun (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Jun]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[MAM (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[MAM]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Mar (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Mar]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[May (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[May]' role='measure' type='quantitative' />
+      <column caption='N Hem' datatype='integer' name='[NHem]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Nov (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Nov]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Oct (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Oct]' role='measure' type='quantitative' />
+      <column caption='S Hem' datatype='integer' name='[SHem]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[SON (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[SON]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Sep (ExcelFormattedGISTEMPDataCSV1)]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Sep]' role='measure' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Year (ExcelFormattedGISTEMPDataCSV)]' role='dimension' type='quantitative' />
+      <column datatype='integer' hidden='true' name='[Year (ExcelFormattedGISTEMPDataCSV1)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ExcelFormattedGISTEMPData2CSV' datatype='table' name='[__tableau_internal_object_id__].[ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ExcelFormattedGISTEMPDataCSV' datatype='table' hidden='true' name='[__tableau_internal_object_id__].[ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ExcelFormattedGISTEMPDataCSV1' datatype='table' hidden='true' name='[__tableau_internal_object_id__].[ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F]' role='measure' type='quantitative' />
+      <column-instance column='[SHem]' derivation='Attribute' name='[attr:SHem:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[24S-24N]' derivation='Sum' name='[sum:24S-24N:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Glob]' derivation='Sum' name='[sum:Glob:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NHem]' derivation='Sum' name='[sum:NHem:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[SHem]' derivation='Sum' name='[sum:SHem:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:Glob:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:NHem:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[attr:SHem:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:SHem:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:24S-24N:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Australia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ExcelFormattedGISTEMPData2CSV' id='ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461'>
+            <properties context=''>
+              <relation connection='excel-direct.00rrq3k0514t521c6zdwi1v7dkje' name='ExcelFormattedGISTEMPData2CSV' table='[ExcelFormattedGISTEMPData2CSV$]' type='table'>
+                <columns gridOrigin='A1:O136:no:A1:O136:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Glob' ordinal='1' />
+                  <column datatype='integer' name='NHem' ordinal='2' />
+                  <column datatype='integer' name='SHem' ordinal='3' />
+                  <column datatype='integer' name='24N-90N' ordinal='4' />
+                  <column datatype='integer' name='24S-24N' ordinal='5' />
+                  <column datatype='integer' name='90S-24S' ordinal='6' />
+                  <column datatype='integer' name='64N-90N' ordinal='7' />
+                  <column datatype='integer' name='44N-64N' ordinal='8' />
+                  <column datatype='integer' name='24N-44N' ordinal='9' />
+                  <column datatype='integer' name='EQU-24N' ordinal='10' />
+                  <column datatype='integer' name='24S-EQU' ordinal='11' />
+                  <column datatype='integer' name='44S-24S' ordinal='12' />
+                  <column datatype='integer' name='64S-44S' ordinal='13' />
+                  <column datatype='integer' name='90S-64S' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='ExcelFormattedGISTEMPDataCSV' id='ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B'>
+            <properties context=''>
+              <relation connection='excel-direct.0d5j5xx0r38iwv11u6n5909dbkey' name='ExcelFormattedGISTEMPDataCSV' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+                <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Jan' ordinal='1' />
+                  <column datatype='integer' name='Feb' ordinal='2' />
+                  <column datatype='integer' name='Mar' ordinal='3' />
+                  <column datatype='integer' name='Apr' ordinal='4' />
+                  <column datatype='integer' name='May' ordinal='5' />
+                  <column datatype='integer' name='Jun' ordinal='6' />
+                  <column datatype='integer' name='Jul' ordinal='7' />
+                  <column datatype='integer' name='Aug' ordinal='8' />
+                  <column datatype='integer' name='Sep' ordinal='9' />
+                  <column datatype='integer' name='Oct' ordinal='10' />
+                  <column datatype='integer' name='Nov' ordinal='11' />
+                  <column datatype='integer' name='Dec' ordinal='12' />
+                  <column datatype='integer' name='J-D' ordinal='13' />
+                  <column datatype='integer' name='D-N' ordinal='14' />
+                  <column datatype='integer' name='DJF' ordinal='15' />
+                  <column datatype='integer' name='MAM' ordinal='16' />
+                  <column datatype='integer' name='JJA' ordinal='17' />
+                  <column datatype='integer' name='SON' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='ExcelFormattedGISTEMPDataCSV1' id='ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F'>
+            <properties context=''>
+              <relation connection='excel-direct.0d5j5xx0r38iwv11u6n5909dbkey' name='ExcelFormattedGISTEMPDataCSV1' table='[ExcelFormattedGISTEMPDataCSV$]' type='table'>
+                <columns gridOrigin='A1:S137:no:A1:S137:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Jan' ordinal='1' />
+                  <column datatype='integer' name='Feb' ordinal='2' />
+                  <column datatype='integer' name='Mar' ordinal='3' />
+                  <column datatype='integer' name='Apr' ordinal='4' />
+                  <column datatype='integer' name='May' ordinal='5' />
+                  <column datatype='integer' name='Jun' ordinal='6' />
+                  <column datatype='integer' name='Jul' ordinal='7' />
+                  <column datatype='integer' name='Aug' ordinal='8' />
+                  <column datatype='integer' name='Sep' ordinal='9' />
+                  <column datatype='integer' name='Oct' ordinal='10' />
+                  <column datatype='integer' name='Nov' ordinal='11' />
+                  <column datatype='integer' name='Dec' ordinal='12' />
+                  <column datatype='integer' name='J-D' ordinal='13' />
+                  <column datatype='integer' name='D-N' ordinal='14' />
+                  <column datatype='integer' name='DJF' ordinal='15' />
+                  <column datatype='integer' name='MAM' ordinal='16' />
+                  <column datatype='integer' name='JJA' ordinal='17' />
+                  <column datatype='integer' name='SON' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Year]' />
+              <expression op='[Year (ExcelFormattedGISTEMPDataCSV)]' />
+            </expression>
+            <first-end-point object-id='ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461' />
+            <second-end-point object-id='ExcelFormattedGISTEMPDataCSV_65600BE5DAFC410FAA6BEF56CCC4FB0B' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Year]' />
+              <expression op='[Year (ExcelFormattedGISTEMPDataCSV1)]' />
+            </expression>
+            <first-end-point object-id='ExcelFormattedGISTEMPData2CSV_41DC317933CA442599C75C33A6BEB461' />
+            <second-end-point object-id='ExcelFormattedGISTEMPDataCSV_EF3E4E1A25C04FE4BD732D8446A2A50F' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_77FDFBB7E26C48A9AE3011D8BA776F07]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Global Surface Temperatures (1880-2015)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ExcelFormattedGISTEMPData2CSV (ExcelFormattedGISTEMPData2CSV)' name='federated.1kt5voj1cpum8u11ve4hq0eizi0u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt5voj1cpum8u11ve4hq0eizi0u'>
+            <column caption='N Hem' datatype='integer' name='[NHem]' role='measure' type='quantitative' />
+            <column caption='S Hem' datatype='integer' name='[SHem]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NHem]' derivation='Sum' name='[sum:NHem:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SHem]' derivation='Sum' name='[sum:SHem:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:NHem:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[sum:SHem:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[Multiple Values]' scope='rows' value='Surface Temperature (℃)' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]' value='200' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]' value='Legend&#10;'>
+              <formatted-text>
+                <run>Legend&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]' />
+              <lod column='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[Multiple Values]</rows>
+        <cols>[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{A2643DD5-089D-46A4-A95E-4B67E8AC1F28}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='2147483647'>
+            <card pane-specification-id='1' param='[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kt5voj1cpum8u11ve4hq0eizi0u].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E115A1B2-E993-4820-A1FF-813D94758716}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='288' name='Sheet 1' width='288'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
